@@ -1,0 +1,16 @@
+[project]
+name = "tp2"
+version = "0.1.0"
+description = "Chatbot to analize CVs"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "groq>=0.36.0",
+    "langchain-community>=0.3.21",
+    "pinecone>=8.0.0",
+    "pypdf>=6.4.0",
+    "python-dotenv>=1.2.1",
+    "sentence-transformers>=5.1.2",
+    "streamlit>=1.51.0",
+    "torch>=2.8.0",
+]
