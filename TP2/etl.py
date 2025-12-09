@@ -1,7 +1,6 @@
 import os
 import glob
 from typing import List, Dict
-from pypdf import PdfReader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from utils import get_embedding_model, get_pinecone_index
 from dotenv import load_dotenv
@@ -9,35 +8,37 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-CV_DIRECTORY = "./cvs/"
+CV_DIRECTORY = "./cvs_txt/"  # Use txt files
 INDEX_NAME = os.getenv("PINECONE_INDEX_NAME", "cv-rag-index")
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 
-def extract_text_from_pdfs(directory: str) -> List[Dict[str, str]]:
+def extract_text_from_txt(directory: str) -> List[Dict[str, str]]:
     """
-    Reads all PDF files in the directory and extracts text.
+    Reads all TXT files in the directory and extracts text.
     Returns a list of dictionaries with 'source' and 'text'.
     """
     documents = []
-    pdf_files = glob.glob(os.path.join(directory, "*.pdf"))
+    txt_files = glob.glob(os.path.join(directory, "*.txt"))
     
-    print(f"Found {len(pdf_files)} PDF files in {directory}")
+    print(f"Found {len(txt_files)} TXT files in {directory}")
     
-    for pdf_path in pdf_files:
-        print(f"Processing {pdf_path}...")
+    for txt_path in txt_files:
+        print(f"Processing {txt_path}...")
         try:
-            reader = PdfReader(pdf_path)
-            text = ""
-            for page in reader.pages:
-                text += page.extract_text() + "\n"
+            with open(txt_path, 'r', encoding='utf-8') as f:
+                text = f.read()
+            
+            # Use the txt filename as the source name
+            source_name = os.path.basename(txt_path)
             
             documents.append({
-                "source": os.path.basename(pdf_path),
+                "source": source_name,
                 "text": text
             })
+            print(f"  Loaded as source: {source_name}")
         except Exception as e:
-            print(f"Error reading {pdf_path}: {e}")
+            print(f"Error reading {txt_path}: {e}")
             
     return documents
 
@@ -66,9 +67,10 @@ def chunk_text(documents: List[Dict[str, str]]) -> List[Dict[str, str]]:
 
 def run_etl():
     print("Starting ETL process...")
+    print("Loading CVs from TXT files for better text quality...")
     
     # 1. Extract
-    documents = extract_text_from_pdfs(CV_DIRECTORY)
+    documents = extract_text_from_txt(CV_DIRECTORY)
     if not documents:
         print("No documents found or extracted. Exiting.")
         return

@@ -1,0 +1,68 @@
+Rodrigo Mesa MarchiINGENiERO EN MECATRÓNiCA ‑ INGENiERO DE DATOS
+Mendoza, Argentina
+(+54) 261 343 7462 | rodrigomesamarchi@gmail.com | rodrigo-mesa
+Educación
+UNCUYO(Universidad Nacional de Cuyo) Mendoza, Argentina
+INGENiERO EN MECATRÓNiCA Marzo 2016 ‑ Diciembre 2022
+• Sexto mejor promedio de la promoción.
+UBA (Universidad de Buenos Aires) Buenos Aires, Argentina
+ESTUDiANTE DE CARRERA DE ESPECiALiZACiÓN EN IA Febrero 2025 ‑ Actualidad
+Habilidades
+Azure Synapse Analytics, Storage accounts, SQL database, DevOps, Azure Databricks, Data Pipelines
+Inteligencia artificial Pytorch, Keras, Tensorflow, Intel Neural Compute Sticks
+Herramientas de ingeniería Matlab, Simulink, SolidWorkds, ROS, Gazebo, Git, Docker, Codesys, LaTeX
+Programación C, C++, Python, SQL, Apache Spark, PySpark
+Idiomas Español, Inglés
+Certificaciones
+Databricks Certified Data Engineer Associate Agosto 2025
+APTiTUDES
+• Apache Spark
+• Delta Lake
+• Databricks
+• Lakehouse
+• Data Pipelines
+• ETL
+• SQL
+• Python
+Experiencia
+Merovingian Data Mendoza, Argentina
+INGENiERO DE DATOS Septiembre 2022 ‑ Hoy
+• Diseño y creación de flujos de datos para extracción, transformación y carga (ETL), con un enfoque en
+la optimización de procesos a gran escala.
+• Implementación y utilización avanzada de Apache Spark para el procesamiento eficiente de
+Big Data en entornos de alta disponibilidad.
+• Desarrollo de modelos en streaming que permiten la actualización en tiempo real de tableros
+de control, mejorando la toma de decisiones.
+• Gestión de proyectos complejos utilizando metodologías ágiles, asegurando la entrega de
+soluciones de calidad en plazos ajustados.
+• Liderazgo en la implementación y aprovechamiento de tecnologías en la nube, maximizando
+la eficiencia y la escalabilidad de las soluciones de datos.
+• Arquitectura y gestión de soluciones en Databricks para el procesamiento y análisis de
+grandes volúmenes de datos.
+• Diseño y optimización de pipelines en Databricks utilizando Apache Spark, garantizando un
+rendimiento y costo eficientes.
+• Integración de fuentes de datos diversas en la plataforma Databricks, facilitando un
+ecosistema de datos robusto.
+• Implementación de estrategias de seguridad y gobernanza de datos en Databricks para
+asegurar el cumplimiento normativo.
+• Capacitación y mentoría a equipos en el uso de Databricks y mejores prácticas de
+ingeniería de datos.
+Petroquímica Cuyo Mendoza, Argentina
+INGENiERO DE MANTENiMiENTO Septiembre 2021 ‑ Septiembre 2022
+• Desarrollo de herramientas Power Platform para inspecciones y calibraciones
+• Desarrollo de una estructura generalizada para la base de datos de equipos en planta
+• Supervisión de la sustitución de la placa de control en la unidad de enfriamiento de una de las torres de
+destilación de planta
+• Gestión del proyecto de sustitución de cables del montacargas principal de planta
+• Participación en la modernización del compresor principal de la planta
+Supportonics Mendoza, Argentina
+PASANTE DE iNTELiGENCiA ARTiFiCiAL Abril 2021 ‑ Septiembre 2021
+• Planificación e implementación de red neuronal convolucional (CNN) para la detección de trayectorias mediante
+segmentación semántica binaria.
+Congresos
+Jornadas Argentinas de Robótica Bariloche, Argentina
+EXPOSiTOR Marzo 2022
+• Exposición de nuestra tesis de grado: diseño de un robot de pulverización autónomo que identifica
+las malas hierbas mediante visión artificial
+Actividades extracurriculares
+Conocimiento musical Saxofón, Piano

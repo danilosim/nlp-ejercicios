@@ -1,0 +1,89 @@
+Juan Ignacio García
+INGENIERO MECATRÓNICO | DOCENTE UNIVERSITARIO
+Metódico y Organizado.
+Aprendo fácil y rápidamente.
+Competente buscando y sintetizando
+información.
+Hábil explicando y redactando
+conceptos.
+Trabajo en equipo e iniciativa.
+CARACTERÍSTICAS
+Fecha de Nacimiento: 7 de Junio de 1998
+Lugar de Residencia: Aristóbulo del Valle
+660, Ciudad de Mendoza, Argentina
+Correo electrónico: jugarov@gmail.com
+Teléfono: 2616402487
+DNI: 41284833
+CUIL: 20-4128483-1
+DATOS PERSONALES
+Nivel profesional en inglés y avanzado en alemán.
+Creación y edición de imágenes y animaciones en software específico, tales como
+Macromedia Flash, Adobe Illustrator, CorelDRAW, Photoshop y Sony Vegas.
+Desarrollo y manejo de la información en bases de datos.
+Desarrollo de unit-testing para proyectos de software.
+Desarrollo de software en múltiples lenguajes de programación C, C++, Python,
+Matlab, Qt y varios de consultas SQL.
+Configuración y desarrollo de Redes Neuronales, destacando el software de NVIDIA
+Deepstream.
+Uso avanzado de herramientas ofimáticas como Microsoft Word, Microsoft Excel y
+Microsoft Power Point.
+Diseño asistido por computadora en herramientas de modelado 2D y 3D, como
+AutoCAD, SolidWorks o Solid Edge.
+Habilidades gerenciales y organizativas.
+HABILIDADES
+Estudios secundarios completos en Escuela de Comercio Martín Zapata, Mendoza,
+Argentina. Egreso en 2015 como mejor promedio y abanderado de la institución,
+Bachiller en Informática.
+Estudios universitarios completos en Universidad Nacional de Cuyo, Mendoza,
+Argentina. Egreso en 2022 como 14º mejor promedio, Ingeniería en Mecatrónica.
+Actualmente cursando la Maestría en Computación de Borde en Universidad de
+Buenos Aires.
+FORMACIÓN ACADÉMICA
+Participación en talleres PREPEDI y PREMUN para estudiantes con altas capacidades
+(España).
+Diplomado y nivel superior en Microsoft Access, Microsoft Excel y CorelDRAW,
+realizado en Master PC, Santa Cruz de Tenerife, España.
+"Energía solar: Aspectos técnicos y sociales", impartido por Ing. Manuel Pérez en
+UNCuyo.
+"Fabricación de Plaquetas Impresas", impartido por Ingeniero Alejandro Fara e
+Ingeniero David Molina en UNCuyo.
+“Visión artificial”, impartido por Doctor Philippe Bolon en UNCuyo.
+“Machine learning”, impartido por Universidad de Stanford (Realizado en modalidad
+online).
+Certificación en Databricks Certified Machine Learning Associate
+FORMACIÓN EXTRACURRICULAR
+Estudiante líder en el proyecto de investigación "Sistema Robótico Integral para
+Asistencia Remota basada en ROS", desarrollado para la Secretaría de Ciencia,
+Tecnología y Posgrado de la Facultad de Ingeniería de la UNCuyo.
+Desarrollador jefe en el proyecto de investigación “Creación de un Bot Conversacional
+como Asistente Virtual en el Espacio de la Cátedra Inteligencia Artificial I”,
+desarrollado para la Secretaría de Ciencia, Tecnología y Posgrado de la Facultad de
+Ingeniería de la UNCuyo.
+PROYECTOS DE INVESTIGACIÓN
+Pasantías laborales realizadas en Metalúrgica S.A. Buccolini CIFIA:
+Organización de información.
+Modelado 3D de piezas en CAD.
+Experiencia en el sector de atención al cliente y ventas minoristas.
+Project Manager en Supportronics:
+Responsable del área de Integración: Desarrollo de firmware para productos
+electrónicos e integración de los dispositivos en una red de comunicación
+coordinada. Asistencia técnica del producto postventa.
+Co-responsable del área de márketing y diseño.
+Desarrollador de Software en C++ y Qt, en colaboración con equipos
+internacionales.
+Arquitecto de Software en el área de Inteligencia Artificial.
+Ingeniero de Visión Artificial en ANT Automation:
+Desarrollador líder en el sistema de adquisición del modelo de la red de
+clasificación y post-procesamiento en Deepstream para C++.
+Lead Data Scientist en Merovingian Data
+Desarrollador líder de modelos de Machine Learning en contexto de análisis
+de datos y predicciones
+Gestión y diseño de arquitectura de pipelines de automatización.
+CARRERA LABORAL - SECTOR PRIVADO
+Experiencia como tutor particular.
+Docente Adscripto en la Universidad Nacional de Cuyo, en la cátedra "Inteligencia
+Artificial I" de la carrera Ingeniería en Mecatrónica.
+Jefe de Trabajos Prácticos en la Universidad Nacional de Cuyo, en la cátedra
+"Inteligencia Artificial I" de la carrera Ingeniería en Mecatrónica
+Jefe de Trabajos Prácticos en la Universidad Nacional de Cuyo, en la cátedra
+"Inteligencia Artificial II" de la carrera Ingeniería en Mecatrónica

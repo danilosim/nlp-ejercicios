@@ -31,7 +31,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that answ
     ```bash
     python etl.py
     ```
-    *Note: This script reads PDFs from `../../proyectos_maestria/procesamiento_lenguaje_2/cvs/`.*
+    *Note: This script reads TXT files from `./cvs_txt/` for better text quality than PDF extraction.*
 
 2.  **Run Chatbot**:
     Start the Streamlit application.

@@ -28,4 +28,5 @@ dependencies = [
 [tool.uv.workspace]
 members = [
     "TP2",
+    "TP3",
 ]

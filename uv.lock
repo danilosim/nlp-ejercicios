@@ -12,6 +12,7 @@ resolution-markers = [
 members = [
     "nlp-ejercicios",
     "tp2",
+    "tp3",
 ]
 
 [[package]]
@@ -3820,6 +3821,35 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "groq", specifier = ">=0.36.0" },
+    { name = "langchain-community", specifier = ">=0.3.21" },
+    { name = "pinecone", specifier = ">=8.0.0" },
+    { name = "pypdf", specifier = ">=6.4.0" },
+    { name = "python-dotenv", specifier = ">=1.2.1" },
+    { name = "sentence-transformers", specifier = ">=5.1.2" },
+    { name = "streamlit", specifier = ">=1.51.0" },
+    { name = "torch", specifier = ">=2.8.0" },
+]
+
+[[package]]
+name = "tp3"
+version = "0.1.0"
+source = { virtual = "TP3" }
+dependencies = [
+    { name = "groq" },
+    { name = "langchain" },
+    { name = "langchain-community" },
+    { name = "pinecone" },
+    { name = "pypdf" },
+    { name = "python-dotenv" },
+    { name = "sentence-transformers" },
+    { name = "streamlit" },
+    { name = "torch" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "groq", specifier = ">=0.36.0" },
+    { name = "langchain", specifier = ">=0.3.27" },
     { name = "langchain-community", specifier = ">=0.3.21" },
     { name = "pinecone", specifier = ">=8.0.0" },
     { name = "pypdf", specifier = ">=6.4.0" },

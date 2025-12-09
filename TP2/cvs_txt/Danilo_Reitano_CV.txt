@@ -1,0 +1,95 @@
+Danilo Reitano
+daniloreitanoandrades@gmail.com | +54 261 5119207
+Proven Senior Software Engineer & Team Leader with over 6 years
+of experience delivering innovative, high-performance software so-
+lutions. Skilled in Python, AWS (DynamoDB, Lambda, Kinesis, ECS,
+API Gateway, S3), GraphQL, FastAPI, Docker, and CI/CD. Having
+experience designing microservice architectures, improving system
+performance (achieved 15x response-time reduction), and leading
+cross-functional teams. Eager to leverage this blend of technical ex-
+pertise and collaborative leadership to drive transformative change in
+real estate and fintech domains..
+EXPERIENCE
+ARIONKODER | Senior Lead / Software Engineer
+Nov 2021 – Present | Full-time, remote
+• Co-lead an engineering team of 150+ at Arionkoder.
+• Developed and optimized REST/GraphQL APIs for client
+platforms, achieving a 15x performance boost through caching
+and efficient data modeling.
+• Transitioned legacy services into a microservices architecture,
+reducing deployment risks and improving scalability.
+• Redesigned authentication and authorization flows,
+introducing JWT-based security and centralized user
+management.
+• Improved developer workflows by implementing CI/CD
+pipelines, resulting in more frequent and reliable releases.
+• Identified business opportunities and client needs, aligning
+technical solutions with strategic goals.
+• Worked with client (Reptrak) leading the design and
+implementation of a REST/GraphQL API to provide data to
+their clients programmatically and through their platform
+dashboard.
+EVENTBRITE | Software Engineer
+Jul 2020 – Nov 2021 | Full-time, remote
+• Communications Infrastructure team, responsible for emails
+and notifications sent to users.
+• Improved message delivery rates, engagement, and tracking.
+• Designed and implemented the DynamoDB persistence
+model for the comm-tracking service.
+• Implemented the migration of the Newsletter service from
+monolith to micro-service to enable scaling the audience.
+• Designed and rebuilt email-preference pages using React,
+creating new email templates and updating designs to enhance
+user experience and align with brand guidelines.
+DHARMA LAB | Machine Learning Engineer
+Apr 2019 – Jul 2020 | Full-time remote
+• Project #1: System that schedules Court Hearings using AI.
+Achieved reduction from 4 to 1 full-time employees for the
+task. Wrote a Flask API to run the model and access results.
+• Project #2: Route optimizer for a logistics company to reduce
+trips with empty trucks.
+EDUCATION
+MASTER'S DEGREE IN AI
+Universidad de Buenos Aires
+Mar 2025 - Present | Mendoza, Argentina
+SYSTEMS ENGINEER
+Universidad Tecnológica Nacional
+2016 - 2020 | Mendoza, Argentina
+Graduated on track with a grade of 8.69 (on 1 to
+10 scale) Approx 3.7 (on 0 to 4 US GPA scale)
+Best Academic Performance Award
+SKILLS
+PROGRAMMING
+6+ years:
+Python • AWS (DynamoDB, ECS, Lambda, API
+Gateway, Kinesis, S3) • FastAPI • SQL •
+MongoDB • CI/CD (Jenkins, Github Actions,
+CircleCI) • Docker • GraphQL • REST
+2+ years:
+Django • GCP • JavaScript • TypeScript • React •
+Auth0 • OpenSearch • Kafka • Sparkpost • Java •
+Flask
+1+ years:
+Golang • Solidity
+TECHNOLOGY
+Git/Github • Datadog • Linux
+Artificial Intelligence • Architecture
+Splunk • Kibana •
+LEADERSHIP MANAGEMENT
+Project Management • Strategic Planning
+Agile • Effective Communication
+Decision Making • Problem Solving
+Mentorship • Stakeholder Engagement
+LANGUAGES
+Spanish: Native
+English: Bilingual Proficiency
+German: Elementary Proficiency
+PROJECTS/PUBLICATIONS
+- Flick - Ticket Reselling Platform / Founder &
+Chief Blockchain Officer / 2022-2023
+- Nerdearla Talk / You’ve got mail (2 billion) /
+Eventbrite Comms Infra
+- FastAPI Versioning / Medium Article
+LINKS
+- Github: danilosim
+- LinkedIn: danilo-reitano

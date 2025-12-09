@@ -31,17 +31,28 @@ def load_resources():
         st.stop()
     return embedding_model, index
 
-def retrieve_context(query, embedding_model, index, top_k=3):
+def retrieve_context(query, embedding_model, index, top_k=6):
     query_embedding = embedding_model.encode(query).tolist()
     results = index.query(vector=query_embedding, top_k=top_k, include_metadata=True)
     
-    contexts = []
-    sources = []
+    # Organize chunks by source
+    by_source = {}
     for match in results["matches"]:
-        contexts.append(match["metadata"]["text"])
-        sources.append(match["metadata"]["source"])
-        
-    return "\n\n".join(contexts), list(set(sources))
+        source = match["metadata"]["source"]
+        text = match["metadata"]["text"]
+        if source not in by_source:
+            by_source[source] = []
+        by_source[source].append(text)
+    
+    # Build structured context
+    structured_context = []
+    for source, chunks in by_source.items():
+        candidate_name = source.replace("_CV.txt", "").replace("_", " ")
+        structured_context.append(f"--- {candidate_name} ---")
+        structured_context.append("\n\n".join(chunks))
+        structured_context.append("")
+    
+    return "\n".join(structured_context), list(by_source.keys())
 
 def main():
     st.title("📄 TP2 -CV Chatbot (RAG)")
@@ -77,9 +88,11 @@ def main():
                 
                 # 2. Augment prompt
                 system_prompt = f"""You are a helpful assistant that answers questions about candidates based on their CVs.
+The candidates are: Danilo Reitano, Rodrigo Mesa, and Juan Garcia.
+Each candidate's information is clearly labeled below.
 Use the following pieces of retrieved context to answer the question. 
-If you don't know the answer, say that you don't know. 
-Keep the answer concise.
+If you don't have information about a specific candidate, say so.
+Keep the answer concise and professional.
 
 Context:
 {context_text}
