@@ -115,14 +115,24 @@ def detect_candidate(query: str) -> str:
     # Check for general/comparative queries
     general_keywords = [
         r'\bwho\b',
+        r'\bquien\b',
         r'\bwhich candidate\b',
+        r'\bcual\b',
+        r'\bque candidato\b',
         r'\bcompare\b',
+        r'\bcompara\b',
         r'\ball candidates\b',
+        r'\btodos los candidatos\b',
+        r'\btodos\b',
         r'\beveryone\b',
+        r'\bambos\b',
         r'\bboth\b',
         r'\bcandidates\b',
-        r'\bmejor\b',  # Spanish: better/best
-        r'\bpeor\b',   # Spanish: worse/worst
+        r'\bcandidatos\b',
+        r'\bbest\b',
+        r'\bworse\b',
+        r'\bmejor\b',
+        r'\bpeor\b',
     ]
     
     for keyword in general_keywords:
